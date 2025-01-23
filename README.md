@@ -48,8 +48,8 @@ Ensure the following are installed:
 1. **📂 Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/YasiruKaveeshwara/Flutter-Simple-Login-Application
+   cd Flutter-Simple-Login-Application
    ```
 
 2. **📦 Install dependencies**:
@@ -63,9 +63,8 @@ Ensure the following are installed:
    - Create a `.env` file in the root directory.
    - Add the following:
      ```env
-     API_URL=https://api.ezuite.com/api/External_Api/Mobile_Api/Invoke
-     API_ACTION=GetUserData
-     APP_NAME=Sample Flutter App
+     API_URL= <Add the user login authentication API key>
+     API_ACTION= <Add API action Ex:- GetUserData>
      ```
 
 4. **▶️ Run the app in debug mode**:
@@ -102,8 +101,10 @@ To generate a release APK:
 
 ### Recommended User Data
 
-- **👤 Username**: `info@enhanzer.com`
-- **🔑 Password**: `Welcome#5`
+Note: Please use the username and password provided to you as part of your API access credentials. Contact your API administrator if you do not have them.
+
+- **👤 Username**: `-`
+- **🔑 Password**: `-`
 
 ### Features to Explore
 
@@ -143,21 +144,6 @@ To generate a release APK:
    ```bash
    flutter build apk --release
    ```
-
----
-
-## 🌟 Recommended Improvements
-
-1. **🛡 Error Reporting**:
-
-   - Implement better error reporting mechanisms for API and database errors.
-
-2. **🧪 Unit Testing**:
-
-   - Add test cases for API integration and SQLite queries.
-
-3. **🔒 API Enhancements**:
-   - Implement token-based authentication for enhanced security.
 
 ---
 

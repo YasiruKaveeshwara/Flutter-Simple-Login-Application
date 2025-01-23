@@ -11,12 +11,18 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+.metadata
 
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
+
+ios/
+linux/
+macos/
+web/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -130,3 +136,44 @@ DerivedData/
 *.keystore
 *.jks
 .env
+
+# Dart & Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+.metadata
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/*.iml
+*.iml
+
+# iOS (Excluded because Android only)
+ios/
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+ios/Pods/
+
+# Web (Excluded because Android only)
+web/
+
+# macOS (Excluded because Android only)
+macos/
+
+# Windows (Excluded because Android only)
+windows/
+
+# Linux (Excluded because Android only)
+linux/
+
+# Others
+.vscode/
+*.lock
+*.log
