@@ -48,7 +48,7 @@ Ensure the following are installed:
 1. **📂 Clone the repository**:
 
    ```bash
-   git clone https://github.com/YasiruKaveeshwara/Flutter-Simple-Login-Application
+   git clone https://github.com/YasiruKaveeshwara/Flutter-Simple-Login-Application.git
    cd Flutter-Simple-Login-Application
    ```
 
