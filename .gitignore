@@ -1,0 +1,132 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.package-config.json
+.flutter/
+build/
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+pubspec.lock
+
+# iOS specific
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/*.xcconfig
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/engine/
+ios/Flutter/Flutter.podspec
+
+# macOS specific
+macos/Flutter/ephemeral/
+macos/.FlutterBuild/
+macos/Flutter/Flutter.framework
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/Generated.xcconfig
+macos/Flutter/*.xcconfig
+
+# Windows specific
+windows/Flutter/ephemeral/
+
+# Linux specific
+linux/Flutter/ephemeral/
+
+# Web specific
+web/.dart_tool/
+web/flutter.js
+web/main.dart.js
+web/main.dart.js.map
+web/canvaskit/
+
+# Generated files
+*.iml
+*.lock
+*.log
+*.hive
+*.db
+*.sqlite
+*.swp
+
+# Dart/IDE specific
+*.DS_Store
+.idea/
+.vscode/
+*.bak
+*.tmp
+*.log
+
+# Unit test coverage
+coverage/
+
+# Android Studio/IntelliJ specific
+.idea/
+*.ipr
+*.iws
+*.iml
+*.hprof
+
+# Xcode specific
+xcuserdata/
+*.xcworkspace
+DerivedData/
+*.hmap
+*.ipa
+
+# Other Files
+*.key
+*.keystore
+*.jks
+.env
